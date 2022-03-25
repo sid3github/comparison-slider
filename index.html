@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Comparison Slider</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="container">
+			<img
+				src="https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social"
+			/>
+			<img
+				id="my-img"
+				src="https://cdn.motor1.com/images/mgl/OO2gX/s1/tesla-model-3-driving-on-road-with-sun-set.jpg"
+			/>
+			<input
+				type="range"
+				min="0"
+				max="100"
+				value="10"
+				id="slider"
+				oninput="slide()"
+			/>
+			<h1></h1>
+		</div>
+
+		<script src="library.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
